@@ -1,0 +1,175 @@
+
+.main-card{
+    margin-bottom: 70px;
+  
+}
+.card{
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.card-item{
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.4);
+    padding: 20px 10px;
+    margin: 10px;
+   
+}
+.card-imge{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid blue;
+    outline: none;
+}
+.card-imge img{
+    width: 100%;
+   
+}
+.details{
+    text-align: center;
+    
+}
+.details h1{
+    font-size: 30px;
+    color: #7d36f0;
+}
+.details p{
+    color: #4d4949;
+    font-size: 18px;
+
+}
+.details .icon{
+    font-size: 25px;
+    background: #4d4949;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 1px;
+    display: none;
+    position: absolute; 
+    height: 50px;
+    width: 305px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.hover-btn:hover .icon{
+    display:flex;
+    position: relative;
+    top:100%;
+    left: -50%;
+    transform: translate(50%,27%);
+
+   
+}
+.details .icon i{
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.details .icon .fa-facebook{
+    background-color: #003ae9;
+    color:white;
+   font-size:50px;
+    border: none;
+    
+}
+.details .icon .fa-square-whatsapp{
+    background-color: #2ce41c;
+    color:white;
+   font-size:50px;
+    border: none;
+    
+}
+.details .icon .fa-twitter{
+    background-color: #ffffff;
+    color: #003ae9;
+   font: size 30px;
+    border: none;
+    
+}
+.details .icon .fa-linkedin{
+    background-color: white;
+    color:  #003ae9;
+    font-size: 49px;
+    border: none;
+    border: none;
+    outline: none;
+    
+}
+.details .icon .fa-google-plus-g{
+    background-color:#d54836;
+    color: #ffffff;
+   font: size 10px;
+    border: none;
+    
+}
+.details .icon .fa-google-plus-g:hover{
+    transform: scale(1.1);
+    
+}
+.details .icon .fa-linkedin:hover{
+    transform: scale(1.1);
+    
+}
+
+.details .icon .fa-twitter:hover{
+    transform: scale(1.1);
+    
+}
+.details .icon .fa-square-whatsapp:hover{
+    transform: scale(1.1);
+    color: #f5f5f5;
+}
+.details .icon .fa-facebook:hover{
+    transform: scale(1.1);
+    color: #f5f5f5;
+}
+.details .icon .fa-youtube{
+    /* background-color:#f70000; */
+    color: #f70000;
+   font: size 60px;
+    border: none;
+    
+}
+.details .icon .fa-youtube:hover{
+    transform: scale(1.1);
+    color:  #f70000;
+}
+.details .btn{
+    background-color: #003ae9;
+    padding: 10px 18px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top:10px ;
+    height: 50px;
+   
+    
+}
+.details .hover-btn:hover .btn{
+    display:none;
+    transition: .5s;
+    position: absolute;
+    top: 30%;
+    left:10%;
+   
+}
